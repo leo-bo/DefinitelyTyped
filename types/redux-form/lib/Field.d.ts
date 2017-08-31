@@ -39,6 +39,7 @@ interface BaseFieldProps<P = {}> extends Partial<CommonFieldProps> {
     format?: Formatter | null;
     normalize?: Normalizer;
     props?: P;
+    label: string;                     
     parse?: Parser;
     validate?: Validator | Validator[];
     warn?: Validator | Validator[];
